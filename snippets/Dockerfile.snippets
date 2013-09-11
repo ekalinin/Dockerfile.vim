@@ -1,0 +1,33 @@
+snippet F
+	FROM ${1:ubuntu}
+snippet M
+	MAINTAINER ${1:name}
+snippet R
+	RUN ${1:command}
+snippet C
+	CMD ${1:}
+snippet EXP
+	EXPOSE ${1:public-port} ${2:private-port}
+snippet E
+	ENV ${1:key} ${2:value}
+snippet A
+	ADD ${1:src} ${2:dst}
+snippet ENT
+	ENTRYPOINT ${1:command}
+snippet V
+	VOLUME ["${1:path}"]
+snippet U
+	USER ${1:name}
+snippet W
+	WORKDIR ${1:path}
+snippet upd
+	# update packages
+	RUN echo "deb http://archive.ubuntu.com/ubuntu ${1:precise} main universe" > /etc/apt/sources.list
+	RUN apt-get update
+	RUN apt-get -y upgrade
+	${2}
+snippet head
+	# ${1:Description}
+	#
+	# VERSION ${2:0.1.0}
+	${3}
