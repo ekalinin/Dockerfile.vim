@@ -7,6 +7,9 @@ and snippets for [snipMate](http://www.vim.org/scripts/script.php?script_id=2540
 Screenshot
 ==========
 
+Here is an example with [vim-monokai](https://github.com/sickill/vim-monokai) color scheme:
+
+
 ![Vim & Dockerfile.vim ](https://raw.github.com/ekalinin/Dockerfile.vim/master/vim-dockerfile-example.png)
 
 
