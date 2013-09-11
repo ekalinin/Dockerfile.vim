@@ -3,8 +3,6 @@ Dockerfile.vim
 
 Vim syntax file for [Docker](http://docker.io/)'s [Dockerfile](http://docs.docker.io/en/latest/use/builder/)
 
-
-
 Installation
 ============
 
