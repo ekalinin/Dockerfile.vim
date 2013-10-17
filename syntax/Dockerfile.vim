@@ -43,3 +43,5 @@ hi link dockerfileUrl       Identifier
 hi link bashStatement       Function
 
 let b:current_syntax = "dockerfile"
+
+set commentstring=#\ %s
