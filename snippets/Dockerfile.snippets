@@ -1,24 +1,46 @@
 snippet F
 	FROM ${1:ubuntu}
+snippet f
+	FROM ${1:ubuntu}
 snippet M
+	MAINTAINER ${1:name}
+snippet m
 	MAINTAINER ${1:name}
 snippet R
 	RUN ${1:command}
+snippet r
+	RUN ${1:command}
 snippet C
+	CMD ${1:}
+snippet c
 	CMD ${1:}
 snippet EXP
 	EXPOSE ${1:public-port} ${2:private-port}
+snippet exp
+	EXPOSE ${1:public-port} ${2:private-port}
 snippet E
+	ENV ${1:key} ${2:value}
+snippet e
 	ENV ${1:key} ${2:value}
 snippet A
 	ADD ${1:src} ${2:dst}
+snippet a
+	ADD ${1:src} ${2:dst}
 snippet ENT
+	ENTRYPOINT ${1:command}
+snippet ent
 	ENTRYPOINT ${1:command}
 snippet V
 	VOLUME ["${1:path}"]
+snippet v
+	VOLUME ["${1:path}"]
 snippet U
 	USER ${1:name}
+snippet u
+	USER ${1:name}
 snippet W
+	WORKDIR ${1:path}
+snippet w
 	WORKDIR ${1:path}
 snippet upd
 	# update packages
