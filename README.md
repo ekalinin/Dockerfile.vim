@@ -23,6 +23,12 @@ $ cd Dockerfile.vim
 $ make install
 ````
 
+####OR using Pathogen:
+```bash
+# Clone directly into the bundle folder.
+git clone https://github.com/ekalinin/Dockerfile.vim.git bundle/Dockerfile
+```
+
 License
 =======
 
