@@ -29,6 +29,12 @@ $ make install
 git clone https://github.com/ekalinin/Dockerfile.vim.git bundle/Dockerfile
 ```
 
+####OR using Vundle:
+```bash
+# near the top of your .vimrc
+Bundle "ekalinin/Dockerfile.vim"
+```
+
 License
 =======
 
