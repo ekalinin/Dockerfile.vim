@@ -1,6 +1,8 @@
 install:
 	@echo "Installation:"
-	@mkdir -p ~/.vim/{syntax,ftdetect,snippets}
+	@mkdir -p ~/.vim/syntax
+	@mkdir -p ~/.vim/ftdetect
+	@mkdir -p ~/.vim/snippets
 	@echo " * Dirs     ...    success."
 	@cp ./syntax/Dockerfile.vim 		~/.vim/syntax/
 	@echo " * Syntax   ...    success."
