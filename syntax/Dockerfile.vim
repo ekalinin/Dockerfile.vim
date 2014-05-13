@@ -35,7 +35,7 @@ syn region dockerfileEmail start=/</ end=/>/ contains=@
 syn match dockerfileUrl /\(http\|https\|ssh\|hg\|git\)\:\/\/[a-zA-Z0-9\/\-\.]\+/
 
 " Comments
-syn match dockerfileComment "#.*$"
+syn match dockerfileComment "^#.*$"
 
 " Highlighting
 hi link dockerfileKeywords  Keyword
