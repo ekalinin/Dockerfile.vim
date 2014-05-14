@@ -27,6 +27,7 @@ syn keyword bashStatement node npm python virtualenv ruby
 
 " Strings
 syn region dockerfileString start=/"/ skip=/\\"/ end=/"/
+syn region dockerfileString1 start=/'/ skip=/\\'/ end=/'/
 
 " Emails
 syn region dockerfileEmail start=/</ end=/>/ contains=@
@@ -40,6 +41,7 @@ syn match dockerfileComment "#.*$"
 " Highlighting
 hi link dockerfileKeywords  Keyword
 hi link dockerfileString    String
+hi link dockerfileString1   String
 hi link dockerfileComment   Comment
 hi link dockerfileEmail     Identifier
 hi link dockerfileUrl       Identifier
