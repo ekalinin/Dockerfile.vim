@@ -12,7 +12,7 @@ endif
 syn case  ignore
 
 " Keywords
-syn keyword dockerfileKeywords FROM MAINTAINER RUN CMD
+syn keyword dockerfileKeywords FROM MAINTAINER RUN CMD COPY
 syn keyword dockerfileKeywords EXPOSE ENV ADD ENTRYPOINT
 syn keyword dockerfileKeywords VOLUME USER WORKDIR ONBUILD
 
