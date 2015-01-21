@@ -19,9 +19,9 @@ syn keyword dockerfileKeywords VOLUME USER WORKDIR ONBUILD
 " Bash statements
 setlocal iskeyword+=-
 syn keyword bashStatement chmod chown chgrp clear complete du egrep expr fgrep cd
-syn keyword bashStatement useradd adduser
+syn keyword bashStatement useradd adduser groupadd
 syn keyword bashStatement find gnufind gnugrep grep less ls echo
-syn keyword bashStatement mkdir mv rm rmdir rpm sed sleep sort strip tail touch
+syn keyword bashStatement mkdir mv cp rm rmdir rpm sed sleep sort strip tail tailf touch head
 syn keyword bashStatement aptitude apt-key apt-get add-apt-repository yum rpm pacman
 syn keyword bashStatement node npm python virtualenv ruby php composer
 "syn keyword bashStatement svn git hg bzr
