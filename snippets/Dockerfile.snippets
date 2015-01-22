@@ -11,17 +11,17 @@ snippet R
 snippet r
 	RUN ${1:command}
 snippet C
-	CMD ${1:}
+	CMD ${1:command}
 snippet c
-	CMD ${1:}
+	CMD ${1:command}
 snippet CP
 	COPY ${1:src} ${2:dest}
 snippet cp
 	COPY ${1:src} ${2:dest}
 snippet EXP
-	EXPOSE ${1:public-port} ${2:private-port}
+	EXPOSE ${1:port}
 snippet exp
-	EXPOSE ${1:public-port} ${2:private-port}
+	EXPOSE ${1:port}
 snippet E
 	ENV ${1:key} ${2:value}
 snippet e
