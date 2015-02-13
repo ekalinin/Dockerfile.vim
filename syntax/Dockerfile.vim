@@ -31,7 +31,7 @@ syn region dockerfileString start=/"/ skip=/\\"/ end=/"/
 syn region dockerfileString1 start=/'/ skip=/\\'/ end=/'/
 
 " Emails
-syn region dockerfileEmail start=/</ end=/>/ contains=@
+syn region dockerfileEmail start=/</ end=/>/ contains=@ oneline
 
 " Urls
 syn match dockerfileUrl /\(http\|https\|ssh\|hg\|git\)\:\/\/[a-zA-Z0-9\/\-\.]\+/
