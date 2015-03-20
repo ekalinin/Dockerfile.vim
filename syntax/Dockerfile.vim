@@ -8,8 +8,8 @@ if exists("b:current_syntax")
   finish
 endif
 
-" No case sensitivity
-syn case  ignore
+" case sensitivity (fix #17)
+" syn case  ignore
 
 " Keywords
 syn keyword dockerfileKeywords FROM MAINTAINER RUN CMD COPY
