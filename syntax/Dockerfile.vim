@@ -18,13 +18,11 @@ syn keyword dockerfileKeywords VOLUME USER WORKDIR ONBUILD
 
 " Bash statements
 setlocal iskeyword+=-
-syn keyword bashStatement chmod chown chgrp clear complete du egrep expr fgrep cd tar gpg
-syn keyword bashStatement useradd adduser groupadd
-syn keyword bashStatement find gnufind gnugrep grep less ls echo ln curl autoconf
-syn keyword bashStatement mkdir mv cp rm rmdir rpm sed sleep sort strip tail tailf touch head
-syn keyword bashStatement aptitude apt-key apt-get add-apt-repository yum rpm pacman
-syn keyword bashStatement node npm python virtualenv ruby php composer make rails gem bundle
-"syn keyword bashStatement svn git hg bzr
+syn keyword bashStatement add-apt-repository adduser apt-get aptitude apt-key autoconf bundle
+syn keyword bashStatement cd chgrp chmod chown clear complete composer cp curl du echo egrep
+syn keyword bashStatement expr fgrep find gem gnufind gnugrep gpg grep groupadd head less ln
+syn keyword bashStatement ls make mkdir mv node npm pacman php python rails rm rmdir rpm ruby
+syn keyword bashStatement sed sleep sort strip tail tailf touch useradd virtualenv yum
 
 " Strings
 syn region dockerfileString start=/"/ skip=/\\"/ end=/"/
