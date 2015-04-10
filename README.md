@@ -32,7 +32,7 @@ git clone https://github.com/ekalinin/Dockerfile.vim.git bundle/Dockerfile
 ####OR using Vundle:
 ```bash
 # near the top of your .vimrc
-Plugin "ekalinin/Dockerfile.vim"
+Plugin 'ekalinin/Dockerfile.vim'
 ```
 
 License
