@@ -34,8 +34,11 @@ syn region dockerfileEmail start=/</ end=/>/ contains=@ oneline
 " Urls
 syn match dockerfileUrl /\(http\|https\|ssh\|hg\|git\)\:\/\/[a-zA-Z0-9\/\-\.]\+/
 
+" Task tags
+syn keyword dockerfileTodo contained TODO FIXME XXX
+
 " Comments
-syn match dockerfileComment "#.*$"
+syn region dockerfileComment start="#" end="\n" contains=dockerfileTodo
 
 " Highlighting
 hi link dockerfileKeywords  Keyword
@@ -44,6 +47,7 @@ hi link dockerfileString1   String
 hi link dockerfileComment   Comment
 hi link dockerfileEmail     Identifier
 hi link dockerfileUrl       Identifier
+hi link dockerfileTodo      Todo
 hi link bashStatement       Function
 
 let b:current_syntax = "dockerfile"
