@@ -23,6 +23,7 @@ syn keyword bashStatement cd chgrp chmod chown clear complete composer cp curl d
 syn keyword bashStatement expr fgrep find gem gnufind gnugrep gpg grep groupadd head less ln
 syn keyword bashStatement ls make mkdir mv node npm pacman php python rails rm rmdir rpm ruby
 syn keyword bashStatement sed sleep sort strip tail tailf touch useradd virtualenv yum
+syn keyword bashStatement usermod useradd bash
 
 " Strings
 syn region dockerfileString start=/"/ skip=/\\"/ end=/"/
