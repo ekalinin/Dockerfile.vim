@@ -23,7 +23,7 @@ syn keyword bashStatement add-apt-repository adduser apt-get aptitude apt-key au
 syn keyword bashStatement cd chgrp chmod chown clear complete composer cp curl du echo egrep
 syn keyword bashStatement expr fgrep find gem gnufind gnugrep gpg grep groupadd head less ln
 syn keyword bashStatement ls make mkdir mv node npm pacman php python rails rm rmdir rpm ruby
-syn keyword bashStatement sed sleep sort strip tail tailf touch useradd virtualenv yum
+syn keyword bashStatement sed sleep sort strip tar tail tailf touch useradd virtualenv yum
 syn keyword bashStatement usermod bash cat a2ensite a2dissite a2enmod a2dismod apache2ctl
 syn keyword bashStatement wget gzip
 
