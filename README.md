@@ -37,7 +37,7 @@ Plugin 'ekalinin/Dockerfile.vim'
 
 ####Or using NeoBundle:
 
-```
+```bash
 NeoBundle 'ekalinin/Dockerfile.vim'
 ```
 
