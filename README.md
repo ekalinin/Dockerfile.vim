@@ -17,13 +17,13 @@ Here is an example in gnome-terminal with [vim-monokai](https://github.com/sicki
 Installation
 ============
 
-````bash
+```bash
 $ git clone https://github.com/ekalinin/Dockerfile.vim.git
 $ cd Dockerfile.vim
 $ make install
-````
+```
 
-####OR using Pathogen:
+####Or using Pathogen:
 ```bash
 # Clone directly into the bundle folder.
 git clone https://github.com/ekalinin/Dockerfile.vim.git bundle/Dockerfile
