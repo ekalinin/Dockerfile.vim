@@ -35,7 +35,7 @@ git clone https://github.com/ekalinin/Dockerfile.vim.git bundle/Dockerfile
 Plugin 'ekalinin/Dockerfile.vim'
 ```
 
-####Or usgin NeoBundle:
+####Or using NeoBundle:
 
 ```
 NeoBundle 'ekalinin/Dockerfile.vim'
