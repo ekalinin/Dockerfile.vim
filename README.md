@@ -29,7 +29,7 @@ $ make install
 git clone https://github.com/ekalinin/Dockerfile.vim.git bundle/Dockerfile
 ```
 
-####OR using Vundle:
+####Or using Vundle:
 ```bash
 # near the top of your .vimrc
 Plugin 'ekalinin/Dockerfile.vim'
