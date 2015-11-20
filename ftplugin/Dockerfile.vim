@@ -1,6 +1,6 @@
 function! DockerfileReplaceInstruction(original, replacement)
     let syn = synIDtrans(synID(line("."), col(".") - 1, 0))
-    if syn != hlID("Comment") && syn != hlID("Constant")
+    if syn != hlID("Comment") && syn != hlID("Constant") && strlen(getline(".")) == 0
         let word = a:replacement
     else
         let word = a:original
