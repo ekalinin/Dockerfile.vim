@@ -15,7 +15,7 @@ endif
 syn keyword dockerfileKeywords FROM MAINTAINER RUN CMD COPY
 syn keyword dockerfileKeywords EXPOSE ENV ADD ENTRYPOINT
 syn keyword dockerfileKeywords VOLUME USER WORKDIR ONBUILD
-syn keyword dockerfileKeywords LABEL
+syn keyword dockerfileKeywords LABEL ARG STOPSIGNAL
 
 " Bash statements
 setlocal iskeyword+=-
