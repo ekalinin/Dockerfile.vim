@@ -28,8 +28,8 @@ syn keyword bashStatement usermod bash cat a2ensite a2dissite a2enmod a2dismod a
 syn keyword bashStatement wget gzip
 
 " Strings
-syn region dockerfileString start=/"/ skip=/\\"/ end=/"/
-syn region dockerfileString1 start=/'/ skip=/\\'/ end=/'/
+syn region dockerfileString start=/"/ skip=/\\"|\\\\/ end=/"/
+syn region dockerfileString1 start=/'/ skip=/\\'|\\\\/ end=/'/
 
 " Emails
 syn region dockerfileEmail start=/</ end=/>/ contains=@ oneline
