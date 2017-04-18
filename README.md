@@ -23,19 +23,19 @@ $ cd Dockerfile.vim
 $ make install
 ```
 
-####Or using Pathogen:
+#### Or using Pathogen:
 ```bash
 # Clone directly into the bundle folder.
 git clone https://github.com/ekalinin/Dockerfile.vim.git bundle/Dockerfile
 ```
 
-####Or using Vundle:
+#### Or using Vundle:
 ```bash
 # near the top of your .vimrc
 Plugin 'ekalinin/Dockerfile.vim'
 ```
 
-####Or using NeoBundle:
+#### Or using NeoBundle:
 
 ```bash
 NeoBundle 'ekalinin/Dockerfile.vim'
