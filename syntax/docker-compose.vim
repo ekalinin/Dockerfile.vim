@@ -24,7 +24,7 @@ syn keyword dockercomposeKeywords volumes_from cpu_shares cpu_quota cpuset domai
 syn keyword dockercomposeKeywords ipc mac_address mem_limit memswap_limit oom_score_adj privileged
 syn keyword dockercomposeKeywords read_only restart shm_size stdin_open tty user working_dir
 syn keyword dockercomposeKeywords healthcheck test interval timeout retries disable sysctls
-syn keyword dockercomposeKeywords userns_mode
+syn keyword dockercomposeKeywords userns_mode secrets
 "" Volume configuration reference
 syn keyword dockercomposeKeywords driver driver_opts external labels
 "" Network configuration reference
