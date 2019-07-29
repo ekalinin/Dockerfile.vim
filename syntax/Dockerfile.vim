@@ -57,8 +57,3 @@ hi link dockerfileTodo      Todo
 hi link bashStatement       Function
 
 let b:current_syntax = "dockerfile"
-
-set commentstring=#\ %s
-
-" Enable automatic comment insertion
-setlocal fo+=cro
