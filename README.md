@@ -41,6 +41,14 @@ Plugin 'ekalinin/Dockerfile.vim'
 NeoBundle 'ekalinin/Dockerfile.vim'
 ```
 
+#### Or using Vim-Plug
+
+```bash
+# Inside the Vim-Plug block on your .vimrc
+Plug 'ekalinin/Dockerfile.vim'
+```
+
+
 License
 =======
 
