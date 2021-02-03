@@ -26,7 +26,7 @@ $ make install
 #### Or using Pathogen:
 ```bash
 # Clone directly into the bundle folder.
-git clone https://github.com/ekalinin/Dockerfile.vim.git bundle/Dockerfile
+git clone https://github.com/ekalinin/Dockerfile.vim.git ~/.vim/bundle/Dockerfile
 ```
 
 #### Or using Vundle:
