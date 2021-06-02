@@ -10,6 +10,7 @@ endif
 
 " case sensitivity (fix #17)
 " syn case  ignore
+syntax spell notoplevel
 
 " Keywords
 syn keyword dockercomposeKeywords build context dockerfile args cap_add cap_drop
@@ -65,7 +66,7 @@ syn match dockercomposeUrl /\(http\|https\|ssh\|hg\|git\)\:\/\/[a-zA-Z0-9\/\-\.]
 syn keyword dockercomposeTodo contained TODO FIXME XXX
 
 " Comments
-syn region dockercomposeComment start="#" end="\n" contains=dockercomposeTodo
+syn region dockercomposeComment start="#" end="\n" contains=dockercomposeTodo,@Spell
 
 " Highlighting
 hi link dockercomposeKeywords  Keyword
