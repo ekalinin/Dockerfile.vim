@@ -2,7 +2,7 @@
 
 " Dockerfile
 autocmd BufRead,BufNewFile [Dd]ockerfile set ft=Dockerfile
-autocmd BufRead,BufNewFile [Dd]ockerfile* set ft=Dockerfile
+autocmd BufRead,BufNewFile [Dd]ockerfile* setfiletype Dockerfile
 autocmd BufRead,BufNewFile *.[Dd]ockerfile set ft=Dockerfile
 autocmd BufRead,BufNewFile *.dock set ft=Dockerfile
 autocmd BufRead,BufNewFile [Dd]ockerfile.vim set ft=vim
